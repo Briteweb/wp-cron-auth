@@ -3,7 +3,7 @@
  * Plugin Name:  WP-CRON Basic Auth
  * Plugin URI:   https://github.com/Briteweb/wp-cron-auth
  * Description:  Enable CRON behind basic auth.
- * Version:      1.0.0
+ * Version:      0.1.1
  * Author:       Briteweb
  * Author URI:   https://briteweb.com
  * License:      MIT License
