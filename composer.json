@@ -3,6 +3,7 @@
     "description": "Enable CRON behind basic auth.",
     "type": "wordpress-plugin",
     "license": "MIT",
+    "version": "0.1.0",
     "authors": [
         {
             "name": "Jeff",
