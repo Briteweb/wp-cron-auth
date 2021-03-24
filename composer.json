@@ -1,0 +1,13 @@
+{
+    "name": "briteweb/wp-cron-auth",
+    "description": "Enable CRON behind basic auth.",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeff",
+            "email": "sagalbot@gmail.com"
+        }
+    ],
+    "require": {}
+}
