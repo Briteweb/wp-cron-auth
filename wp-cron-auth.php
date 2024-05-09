@@ -16,7 +16,7 @@ $shouldAddAuthentication = defined('WP_CRON_HTTP_BASIC_USERNAME') && defined('WP
  */
 if (function_exists('add_filter') && $shouldAddAuthentication) {
     add_filter('cron_request', function ($request) {
-        $headers = ['Authorization' => sprintf('Basic %s', base64_encode(WP_CRON_HTTP_BASIC_USERNAME.':'.WP_CRON_HTTP_BASIC_USERNAME))];
+        $headers = ['Authorization' => sprintf('Basic %s', base64_encode(WP_CRON_HTTP_BASIC_USERNAME.':'.WP_CRON_HTTP_BASIC_PASSWORD))];
 
         $request['args']['headers'] = isset($request['args']['headers']) ? array_merge($request['args']['headers'], $headers) : $headers;
 
